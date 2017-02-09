@@ -1,0 +1,80 @@
+" use pathogen for plugins
+execute pathogen#infect()
+
+" show syntax highlighting
+syntax on
+
+" use filetype plugins
+filetype plugin indent on
+
+" autoread when a file is changed
+set autoread
+
+" use comma for <leader>
+let mapleader=","
+
+" set colors
+set t_Co=256
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+if has("win16") || has("win32")
+    set wildignore+=.git\*,.hg\*,.svn\*
+else
+    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+endif
+
+" fix backspace
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" case insensitive search
+set ignorecase
+
+" highlight search results
+set hlsearch
+
+" show matching brackets
+set showmatch
+
+" shut up
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+" use utf8
+set encoding=utf8
+
+" no backups
+set nobackup
+set nowb
+set noswapfile
+
+" fix tabs
+set smarttab
+set expandtab
+set shiftwidth=2
+set tabstop=2
+
+" delete trailing whitespace on save
+func! DeleteTrailingWS()
+  exe "normal mz"
+  %s/\s\+$//ge
+  exe "normal `z"
+endfunc
+autocmd BufWrite *.py :call DeleteTrailingWS()
+autocmd BufWrite *.coffee :call DeleteTrailingWS()
+
+" relative line numbers
+set relativenumber
+set number
+
+" keep some space while scrolling
+set scrolloff=5
+
+" setup vim-airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline_theme='luna'
+

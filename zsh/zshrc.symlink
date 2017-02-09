@@ -37,4 +37,3 @@ done
 unset config_files
 
 export PATH=/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin
-

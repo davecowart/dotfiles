@@ -63,8 +63,7 @@ func! DeleteTrailingWS()
   %s/\s\+$//ge
   exe "normal `z"
 endfunc
-autocmd BufWrite *.py :call DeleteTrailingWS()
-autocmd BufWrite *.coffee :call DeleteTrailingWS()
+autocmd BufWrite * :call DeleteTrailingWS()
 
 " relative line numbers
 set relativenumber
@@ -77,4 +76,8 @@ set scrolloff=5
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
+set guifont=Monaco\ for\ Powerline
 
+" enable per-project vimrc files
+set exrc
+set secure

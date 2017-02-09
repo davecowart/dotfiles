@@ -1,0 +1,9 @@
+cwd=$(pwd)
+cd ~/.vim/bundle
+for i in `ls -d */`; do
+  echo "updating $i"
+  cd "$i"
+  git pull
+  cd ..
+done
+cd $cwd

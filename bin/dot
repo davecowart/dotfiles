@@ -5,6 +5,7 @@
 # `dot` handles installation, updates, things like that. Run it periodically
 # to make sure you're on the latest and greatest.
 export ZSH=$HOME/.dotfiles
+echo "updating dotfiles in $ZSH"
 
 # Set macOS defaults
 # $ZSH/macos/set-defaults.sh
@@ -12,6 +13,13 @@ export ZSH=$HOME/.dotfiles
 # Upgrade homebrew
 echo "› brew update"
 brew update
+echo "› brew upgrade"
+brew upgrade
+
+# Upgrade vim plugins
+echo "› $ZSH/bin/update-vim"
+$ZSH/bin/update-vim
+
 
 # Install software
 echo "› $ZSH/script/install"

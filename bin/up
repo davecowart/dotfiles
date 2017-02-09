@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# dot
+# up
 #
-# `dot` handles installation, updates, things like that. Run it periodically
+# `up` handles installation, updates, things like that. Run it periodically
 # to make sure you're on the latest and greatest.
 export ZSH=$HOME/.dotfiles
 echo "updating dotfiles in $ZSH"

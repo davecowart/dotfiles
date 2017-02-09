@@ -3,6 +3,7 @@
 ## Installation
 
 `script/bootstrap`
+
 `script/install`
 
 ## Update

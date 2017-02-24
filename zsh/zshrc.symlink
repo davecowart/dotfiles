@@ -40,7 +40,7 @@ done
 
 unset config_files
 
-export PATH=/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin
+export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin
 
 alias fuck='$(thefuck $(fc -ln -1))'
 alias fix='fuck'

@@ -7,6 +7,11 @@
 export ZSH=$HOME/.dotfiles
 echo "updating dotfiles in $ZSH"
 
+cwd=($pwd)
+cd $ZSH
+git pull
+cd $cwd
+
 # Set macOS defaults
 # $ZSH/macos/set-defaults.sh
 

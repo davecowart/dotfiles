@@ -3,4 +3,5 @@ alias speedtest='wget --report-speed=bits -O /dev/null http://speedtest.wdc01.so
 alias reload='. ~/.zshrc'
 alias weather='curl http://wttr.in/'
 alias moon='curl http://wttr.in/moon'
+alias flushdns='sudo killall -HUP mDNSResponder'
 

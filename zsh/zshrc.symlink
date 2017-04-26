@@ -46,3 +46,6 @@ export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/
 eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
 eval $(thefuck --alias fix)
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"

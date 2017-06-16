@@ -20,6 +20,8 @@ echo "› brew update"
 brew update
 echo "› brew upgrade"
 brew upgrade
+echo "› brew cleanup"
+brew cleanup
 
 # Upgrade vim plugins
 echo "› $ZSH/bin/update-vim"

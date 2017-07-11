@@ -15,6 +15,9 @@ cd $cwd
 # Set macOS defaults
 # $ZSH/macos/set-defaults.sh
 
+# Upgrade npm
+npm i -g npm
+
 # Upgrade homebrew
 echo "› brew update"
 brew update

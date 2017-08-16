@@ -81,3 +81,6 @@ set guifont=Monaco\ for\ Powerline
 " enable per-project vimrc files
 set exrc
 set secure
+
+" enable JSX syntax for js files
+let g:jsx_ext_required = 0

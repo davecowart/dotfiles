@@ -4,4 +4,5 @@ alias reload='. ~/.zshrc'
 alias weather='curl http://wttr.in/'
 alias moon='curl http://wttr.in/moon'
 alias flushdns='sudo killall -HUP mDNSResponder'
+alias whodat='whois -h whois.arin.net'
 

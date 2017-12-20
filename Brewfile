@@ -35,3 +35,5 @@ brew "ffmpeg"
 brew "the_silver_searcher"
 brew "tree"
 brew "git-lfs"
+brew "terraform"
+

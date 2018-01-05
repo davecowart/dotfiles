@@ -5,4 +5,4 @@ alias weather='curl http://wttr.in/'
 alias moon='curl http://us.wttr.in/moon'
 alias flushdns='sudo killall -HUP mDNSResponder'
 alias whodat='whois -h whois.arin.net'
-
+alias deploy='npm run deploy'

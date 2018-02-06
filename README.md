@@ -8,4 +8,4 @@
 
 ## Update
 
-`dot`
+`up`

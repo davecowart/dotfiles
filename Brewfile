@@ -1,3 +1,5 @@
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
 brew "zsh"
 brew "awscli"
 brew "curl"
@@ -36,4 +38,4 @@ brew "the_silver_searcher"
 brew "tree"
 brew "git-lfs"
 brew "terraform"
-
+cask "haskell-platform"

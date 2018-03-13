@@ -42,11 +42,13 @@ unset config_files
 
 export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin
 
-export PATH="$HOME/.fastlane/bin:$PATH"
-
 eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
 eval $(thefuck --alias fix)
 
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+# environment variables for fastlane supply
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

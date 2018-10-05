@@ -40,7 +40,7 @@ done
 
 unset config_files
 
-export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin
+export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin:~/go/bin
 
 eval $(thefuck --alias)
 eval $(thefuck --alias fuck)

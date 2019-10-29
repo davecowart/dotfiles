@@ -46,9 +46,6 @@ eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
 eval $(thefuck --alias fix)
 
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
 # environment variables for fastlane supply
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -56,9 +53,6 @@ export LANG=en_US.UTF-8
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
 [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
 
 export PATH=/Users/dave/.local/bin:$PATH
 

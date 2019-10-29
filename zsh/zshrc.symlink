@@ -1,3 +1,4 @@
+#zmodload zsh/zprof
 export ZSH=$HOME/.dotfiles
 
 export PROJECTS=~/Projects
@@ -25,8 +26,12 @@ do
 done
 
 # initialize autocomplete here, otherwise functions won't be loaded
-autoload -U compinit
-compinit
+autoload -Uz compinit
+for dump in ~/.zcompdump(N.mh+24); do
+  compinit
+done
+compinit -C
+
 zstyle ':completion:*' menu select
 
 # change directories without cd
@@ -56,6 +61,5 @@ export LANG=en_US.UTF-8
 
 export PATH=/Users/dave/.local/bin:$PATH
 
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/dave/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/dave/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
+export PATH=/usr/local/opt/python/libexec/bin:/Users/dave/Library/Python/3.7/bin:$PATH
+#zprof

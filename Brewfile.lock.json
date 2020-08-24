@@ -5,7 +5,7 @@
         "revision": "3de001e3b406756eeee2766aa76807c6d1c566fe"
       },
       "homebrew/cask": {
-        "revision": "13c00f3cd484685327c771ef5da7156140b771d8"
+        "revision": "463401d9f0313f60da4e3a8f20f1ea5b17bc276f"
       }
     },
     "brew": {
@@ -182,22 +182,22 @@
         }
       },
       "vim": {
-        "version": "8.2.1450",
+        "version": "8.2.1500",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1450.catalina.bottle.tar.gz",
-              "sha256": "6f9077037cd60262e1b92301d39d276a2cfbb22f757cf1659f4398b9b46da342"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1500.catalina.bottle.tar.gz",
+              "sha256": "1f1f13ec4a41c2a99e1511e96daf4e5aa113231b95ef1f703f5c021ff11c3b2a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1450.mojave.bottle.tar.gz",
-              "sha256": "950f835f3c6bd825d4d2604660a9dd4c6fb54ed01daa73a687f2afbb63b4cca8"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1500.mojave.bottle.tar.gz",
+              "sha256": "ba16d3edf006b7a0f34bd474e8822d09c1cbc618cecf09d788a1a483d6f592b0"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1450.high_sierra.bottle.tar.gz",
-              "sha256": "306a56c61abda3d854e5e830b9a66bcc85f1619a026539f445425befa284289e"
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.1500.high_sierra.bottle.tar.gz",
+              "sha256": "a14a1bb6284d7c9d27a1792c178c1ee03aa8a0a69db19278e7a73aac84075d83"
             }
           }
         }
@@ -725,7 +725,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "91a64ae21b937d3ce2f84468376272eeb0ef1339",
+        "Homebrew/homebrew-core": "b3a2ff58035551da963316d10c465dc1dd15939b",
         "CLT": "12.0.31.1",
         "Xcode": "11.6",
         "macOS": "10.15.6"

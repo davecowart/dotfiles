@@ -45,7 +45,7 @@ done
 
 unset config_files
 
-export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin:~/go/bin:~/flutter/bin
+export PATH=~/.rbenv/shims:/usr/local/bin:/usr/local/bin/git:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/sbin:~/.tmuxifier/bin:~/.dotfiles/bin:~/go/bin:~/flutter/bin:$PATH
 
 eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
@@ -89,3 +89,9 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 export PATH="$PATH:/Users/dave/.dotnet/tools"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add ADB
+export PATH"$PATH:~/Library/Android/sdk/platform-tools"

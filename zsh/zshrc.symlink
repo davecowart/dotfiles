@@ -51,6 +51,8 @@ eval $(thefuck --alias)
 eval $(thefuck --alias fuck)
 eval $(thefuck --alias fix)
 
+eval "$(rbenv init -)"
+
 # environment variables for fastlane supply
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -95,3 +97,18 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Add ADB
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+
+# Add Go
+export PATH="$PATH:/usr/local/go/bin"
+
+# Add NTWRK build of telepresence
+export PATH="$PATH:$HOME/Library/NTWRK/bin"
+
+# export GOPATH="/usr/local/go"
+
+# Add Java
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+export JAVA_HOME=$(/usr/libexec/java_home -v11)
+#export JAVA_HOME=$(/usr/libexec/java_home -v1.8)

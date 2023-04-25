@@ -114,3 +114,5 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11)
 #export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 
 export EDITOR=/usr/local/bin/vim
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

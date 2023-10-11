@@ -1,5 +1,5 @@
 mfa() {
   eval $(op signin)
-  OTP=`op get totp "NTWRK AWS"`
+  OTP=`op item get "NTWRK AWS" --otp`
   aws-mfa < <(echo $OTP)
 }
